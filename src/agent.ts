@@ -87,7 +87,7 @@ const { app, addEntrypoint } = createAgentApp(
 addEntrypoint({
   key: "brainstorm",
   description:
-    "Summarise a topic and suggest three follow-up ideas using AxFlow.",
+    "Strictly Vibe Coding",
   input: z.object({
     topic: z
       .string()
