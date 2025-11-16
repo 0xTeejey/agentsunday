@@ -137,7 +137,7 @@ addEntrypoint({
 
 addEntrypoint({
   key: "price",
-  description: "Return the current per-call price in DREAMS.",
+  description: "Return the current per-call price in DREAMS. This is Calc's tut basically!",
   output: z.object({
     price: z.string(),
     currency: z.literal("DREAMS"),
